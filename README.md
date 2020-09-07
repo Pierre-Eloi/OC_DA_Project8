@@ -22,3 +22,5 @@ J'ai pu alors tester une regression Ridge à partir de ces variables afin de mod
 Pour finir, j'ai utilisé l'algorithme SARIMA (présence d'une saisonnalité) pour prédire l'évolution des stocks ainsi que la consommation (il n'était pas nécessaire de prédire la production car cette dernière était décalée de 12 mois). Les résultats du SARIMA, ont montré **une bonne prédiction jusqu'à 6 mois**.
 
 Le modèle sélectionné précédemment ainsi que les prédictions de la consommation & des stocks (obtenus par SARIMA) ont été utilisés afin de prédire le *WTI*. Le graphique ci-dessous montre les résultats de la prédicition par rapport aux données réelles.
+
+![WTI Forecast](/charts/WTI_results.png "WTI Forecast")
