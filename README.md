@@ -9,7 +9,7 @@ Les librairies python nécessaires pour pouvoir lancer le notebook sont regroup�
 
 Toutes les fonctions créées afin de mener à bien le projet ont été regroupées dans le fichier *Project8.py*.
 
-Le prix pétrole ayant connu de nombreuses crise depuis les débuts de son exploitation il y a plus d'un siècle, il fut nécessaire d'analyser minutieusement l'évolution des cours afin de trouver une période pouvant être considérée comme représentative de la période actuelle. Le but étant d'éviter d'inclure dans mon analyse des variations anomaliques liées à des évènements historiques, évènements difficilement reproductible de nos jours. **C'est la période de 2010 à fin 2018 qui fut choisie.**
+Le prix pétrole ayant connu de nombreuses crises depuis les débuts de son exploitation il y a plus d'un siècle, il fut nécessaire d'analyser minutieusement l'évolution des cours afin de trouver une période pouvant être considérée comme représentative de la période actuelle. Le but étant d'éviter d'inclure dans mon analyse des variations anomaliques liées à des évènements historiques, évènements difficilement reproductible de nos jours. **C'est la période de 2010 à fin 2018 qui fut choisie.**
 
 Après avoir établi la période sur laquelle j'allais pouvoir travailler, il a fallu trouver les variables les plus à même de modéliser le prix du baril. 
 Les variables les plus prometteuses étaient :
