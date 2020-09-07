@@ -24,3 +24,5 @@ Pour finir, j'ai utilisé l'algorithme SARIMA (présence d'une saisonnalité) po
 Le modèle sélectionné précédemment ainsi que les prédictions de la consommation & des stocks (obtenus par SARIMA) ont été utilisés afin de prédire le *WTI*. Le graphique ci-dessous montre les résultats de la prédicition par rapport aux données réelles.
 
 ![WTI Forecast](/charts/WTI_results.png "WTI Forecast")
+
+**Au final, laa RMSE obtenue avec ce modèle est inférieure de plus de 40% à celle obtenue pour le modèle naïf**.
