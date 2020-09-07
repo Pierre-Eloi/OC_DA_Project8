@@ -15,7 +15,7 @@ Après avoir établi la période sur laquelle j'allais pouvoir travailler, il a 
 Les variables les plus prometteuses étaient :
 - La consommation de produits pétroliers;
 - La variation des stocks;
-- La production pétrolière décalées de 12 mois;
+- La production pétrolière décalée de 12 mois;
 
 J'ai pu alors tester une regression Ridge à partir de ces variables afin de modéliser les prix. Les résultats fut convaincants et j'ai donc décidé de poursuivre avec ce modèle. J'envisage de tester d'autres modèles plus complexes (Random Forest, Gradient Boosting, XGBoost, MLP) pour voir s'il est possible d'affiner encore un peu plus résultats. J'envisage aussi de mettre la période (notamment la date de fin) en hyperparamètre.
 
