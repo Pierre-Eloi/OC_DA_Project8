@@ -19,6 +19,6 @@ Les variables les plus prometteuses étaient :
 
 J'ai pu alors tester une regression Ridge à partir de ces variables afin de modéliser les prix. Les résultats fut convaincants et j'ai donc décidé de poursuivre avec ce modèle. J'envisage de tester d'autres modèles plus complexes (Random Forest, Gradient Boosting, XGBoost, MLP) pour voir s'il est possible d'affiner encore un peu plus résultats. J'envisage aussi de mettre la période (notamment la date de fin) en hyperparamètre.
 
-Pour finir j'ai utilisé l'algorithme SARIMA (présence d'une saisonnalité) pour prédire l'évolution des stocks ainsi que la consommation (il était pas nécessaire de prédire la production car cette dernière était décalée de 12 mois). Les résultats du SARIMA, ont montré **une bonne prédiction jusqu'à 6 mois**.
+Pour finir, j'ai utilisé l'algorithme SARIMA (présence d'une saisonnalité) pour prédire l'évolution des stocks ainsi que la consommation (il n'était pas nécessaire de prédire la production car cette dernière était décalée de 12 mois). Les résultats du SARIMA, ont montré **une bonne prédiction jusqu'à 6 mois**.
 
 Le modèle sélectionné précédemment ainsi que les prédictions de la consommation & des stocks (obtenus par SARIMA) ont été utilisés afin de prédire le *WTI*. Le graphique ci-dessous montre les résultats de la prédicition par rapport aux données réelles.
