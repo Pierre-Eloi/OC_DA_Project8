@@ -1,1 +1,5 @@
-data/*
+data/Monthly Brent Oil Price.csv
+data/Monthly US Oil Rigs.csv
+data/Monthly US Oil Stock (excl. SPR).csv
+data/Weekly US Oil Stock (incl. SPR).csv
+data/Weekly US Oil Stock (incl. SPR)_eia.csv
